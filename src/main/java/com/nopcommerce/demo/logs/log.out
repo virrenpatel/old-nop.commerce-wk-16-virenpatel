@@ -1,0 +1,94 @@
+2022-12-20 19:32:46 INFO  TopMenuPage :50 - verifyComputerComputers
+2022-12-20 19:35:28 INFO  ComputerPage :218 - clickOnComputerTab[[ChromeDriver: chrome on WINDOWS (afac5b60e9fd6ec7ef9e865ec8c6cb6e)] -> link text: Computers]
+2022-12-20 19:35:28 INFO  ComputerPage :223 - clickOnDesktop[[ChromeDriver: chrome on WINDOWS (afac5b60e9fd6ec7ef9e865ec8c6cb6e)] -> xpath: //h2[@class='title']//a]
+2022-12-20 19:35:29 INFO  ComputerPage :228 - getSelectByText[[ChromeDriver: chrome on WINDOWS (afac5b60e9fd6ec7ef9e865ec8c6cb6e)] -> xpath: //select[@name='products-orderby']]
+2022-12-20 19:35:32 INFO  ElectronicsPage :270 - mouseHoverOnElectronicTab[[ChromeDriver: chrome on WINDOWS (d6206c601105b09b1c54089b87d3b603)] -> xpath: //a[text()='Electronics ']]
+2022-12-20 19:35:32 INFO  ElectronicsPage :275 - clickOnCellPhones[[ChromeDriver: chrome on WINDOWS (d6206c601105b09b1c54089b87d3b603)] -> xpath: //ul[1]/li[2]/ul[1]/li[2]/a[1]]
+2022-12-20 19:35:33 INFO  ElectronicsPage :280 - getCellPhoneTextCell phones
+2022-12-20 19:35:36 INFO  TopMenuPage :50 - verifyComputerComputers
+2022-12-20 19:35:59 INFO  ComputerPage :218 - clickOnComputerTab[[ChromeDriver: chrome on WINDOWS (5020b2df67ca34e2d1cce1b52b3d64e5)] -> link text: Computers]
+2022-12-20 19:36:00 INFO  ComputerPage :223 - clickOnDesktop[[ChromeDriver: chrome on WINDOWS (5020b2df67ca34e2d1cce1b52b3d64e5)] -> xpath: //h2[@class='title']//a]
+2022-12-20 19:36:00 INFO  ComputerPage :228 - getSelectByText[[ChromeDriver: chrome on WINDOWS (5020b2df67ca34e2d1cce1b52b3d64e5)] -> xpath: //select[@name='products-orderby']]
+2022-12-20 19:36:03 INFO  ComputerPage :218 - clickOnComputerTab[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> link text: Computers]
+2022-12-20 19:36:03 INFO  ComputerPage :223 - clickOnDesktop[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //h2[@class='title']//a]
+2022-12-20 19:36:04 INFO  ComputerPage :228 - getSelectByText[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //select[@name='products-orderby']]
+2022-12-20 19:36:04 INFO  ComputerPage :238 - clickOnAddToCart[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //body/div[6]/div[3]/div[1]/div[3]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[2]/button[1]]
+2022-12-20 19:36:05 INFO  ComputerPage :243 - getBuildYourOwnTextBuild your own computer
+2022-12-20 19:36:07 INFO  ComputerPage :248 - selectProcessorE2200ByValue[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //select[@id='product_attribute_1']]
+2022-12-20 19:36:09 INFO  ComputerPage :253 - selectRam8GBByValue[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //select[@id='product_attribute_2']]
+2022-12-20 19:36:11 INFO  ComputerPage :258 - clickOnHDDRadio400GB[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //label[text()='400 GB [+$100.00]']]
+2022-12-20 19:36:11 INFO  ComputerPage :263 - clickOnOsRadioVistaPremium[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //label[text()='Vista Premium [+$60.00]']]
+2022-12-20 19:36:11 INFO  ComputerPage :268 - clickOnSoftwareTotalCommander[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@id='product_attribute_5_10']]
+2022-12-20 19:36:11 INFO  ComputerPage :273 - totalCommand[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@id='product_attribute_5_12']]
+2022-12-20 19:36:13 INFO  ComputerPage :283 - clickOnAddToCartButton[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[@id='add-to-cart-button-1']]
+2022-12-20 19:36:13 INFO  ComputerPage :288 - getCartTextThe product has been added to your shopping cart
+2022-12-20 19:36:14 INFO  ComputerPage :293 - closeCartMessageBox[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //span[@class='close']]
+2022-12-20 19:36:14 INFO  ComputerPage :298 - mouseHoverOnShoppingCart[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //span[contains(text(),'Shopping cart')]]
+2022-12-20 19:36:14 INFO  ComputerPage :303 - clickOnShoppingCart[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[contains(text(),'Go to cart')]]
+2022-12-20 19:36:15 INFO  ComputerPage :313 - clearTextInQuantityField[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@value='1']]
+2022-12-20 19:36:15 INFO  ComputerPage :320 - sendTextToQuantityField[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@value='1']]
+2022-12-20 19:36:15 INFO  ComputerPage :325 - clickOnUpdateShoppingCartButton[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[@id='updatecart']]
+2022-12-20 19:36:16 INFO  ComputerPage :330 - verifyTotalPrice2950$2,950.00
+2022-12-20 19:36:16 INFO  ComputerPage :335 - clickOnCheckBoxIAgreeWithTermsAndCondition[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@id='termsofservice']]
+2022-12-20 19:36:16 INFO  ComputerPage :340 - clickOnCheckOutButton[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[@id='checkout']]
+2022-12-20 19:36:16 INFO  ComputerPage :345 - getWelcomePleaseSignInTextWelcome, Please Sign In!
+2022-12-20 19:36:16 INFO  ComputerPage :350 - clickOnCheckOutAsGuestBox[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[contains(text(),'Checkout as Guest')]]
+2022-12-20 19:36:17 INFO  ComputerPage :355 - enterText Manan ToFirstNameField[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> id: BillingNewAddress_FirstName]
+2022-12-20 19:36:17 INFO  ComputerPage :360 - enterText Shah ToLastNameField[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> id: BillingNewAddress_LastName]
+2022-12-20 19:36:17 INFO  ComputerPage :365 - enterText mshah123@gmail.com ToEmailField[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> id: BillingNewAddress_Email]
+2022-12-20 19:36:17 INFO  ComputerPage :370 - selectTextToCountryField[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //select[@id='BillingNewAddress_CountryId']]
+2022-12-20 19:36:17 INFO  ComputerPage :380 - selectStateToStateField[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> id: BillingNewAddress_StateProvinceId]
+2022-12-20 19:36:17 INFO  ComputerPage :375 - selectText London ToCityField[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@id='BillingNewAddress_City']]
+2022-12-20 19:36:17 INFO  ComputerPage :385 - sendText 1,Luton road ToAddressLine1[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> css selector: #BillingNewAddress_Address1]
+2022-12-20 19:36:18 INFO  ComputerPage :390 - sendText Luton ToAddressLine2[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> css selector: #BillingNewAddress_Address2]
+2022-12-20 19:36:18 INFO  ComputerPage :395 - enterText LU7 8NJ ToPostcode[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@id='BillingNewAddress_ZipPostalCode']]
+2022-12-20 19:36:18 INFO  ComputerPage :400 - enter Text 020874343 To PhoneNumber Field [[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@id='BillingNewAddress_PhoneNumber']]
+2022-12-20 19:36:18 INFO  ComputerPage :405 - clickOnContinueButton[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> name: save]
+2022-12-20 19:36:18 INFO  ComputerPage :410 - clickOnNextDayAirButton[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@id='shippingoption_1']]
+2022-12-20 19:36:18 INFO  ComputerPage :415 - clickOnContinueButtonAgain[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[@class='button-1 shipping-method-next-step-button']]
+2022-12-20 19:36:19 INFO  ComputerPage :420 - clickOnCreditCardButton[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@id='paymentmethod_1']]
+2022-12-20 19:36:19 INFO  ComputerPage :425 - clickOnContinue2[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[@class='button-1 payment-method-next-step-button']]
+2022-12-20 19:36:19 INFO  ComputerPage :430 - clickOnCreditCardRadioButton[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //input[@id='paymentmethod_1']]
+2022-12-20 19:36:19 INFO  ComputerPage :435 - clickOnContinueButton3[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //body/div[6]/div[3]/div[1]/div[1]/div[1]/div[2]/ol[1]/li[4]/div[2]/div[1]/button[1]]
+2022-12-20 19:36:19 INFO  ComputerPage :440 - selectMasterCardFromCreditCardDropdown[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //select[@id='CreditCardType']]
+2022-12-20 19:36:19 INFO  ComputerPage :445 - sendTextTOCardHolderName[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> id: CardholderName]
+2022-12-20 19:36:19 INFO  ComputerPage :450 - sendTextTOCardNumber[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> id: CardNumber]
+2022-12-20 19:36:19 INFO  ComputerPage :455 - selectMonthAndYearForCreditCardExpireData
+2022-12-20 19:36:19 INFO  ComputerPage :461 - sendTextToCardCode[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> id: CardCode]
+2022-12-20 19:36:20 INFO  ComputerPage :466 - clickOnContinueButton4[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[@class='button-1 payment-info-next-step-button']]
+2022-12-20 19:36:20 INFO  ComputerPage :471 - getPaymentMethodTextPayment Method: Credit Card
+2022-12-20 19:36:20 INFO  ComputerPage :476 - verifyShippingMethodTextShipping Method: Next Day Air
+2022-12-20 19:36:20 INFO  ComputerPage :481 - verifyTotalPriceIs2950[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //tr[@class='order-total']/td[2]/span/strong]
+2022-12-20 19:36:20 INFO  ComputerPage :486 - clickOnConfirmButton[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[@class='button-1 confirm-order-next-step-button']]
+2022-12-20 19:36:21 INFO  ComputerPage :491 - verifyThankYouTextThank you
+2022-12-20 19:36:21 INFO  ComputerPage :496 - verifySuccessfullyProcessedTextYour order has been successfully processed!
+2022-12-20 19:36:21 INFO  ComputerPage :501 - clickOnContinueButton5[[ChromeDriver: chrome on WINDOWS (cb8b6ca2a066bc7d881560b61fc6f62c)] -> xpath: //button[contains(text(),'Continue')]]
+2022-12-20 19:36:21 INFO  ComputerPage :506 - getWelcomeToOurStoreTextWelcome to our store
+2022-12-20 19:36:25 INFO  ElectronicsPage :270 - mouseHoverOnElectronicTab[[ChromeDriver: chrome on WINDOWS (04b2e36459d153cccdc1e2c089530124)] -> xpath: //a[text()='Electronics ']]
+2022-12-20 19:36:25 INFO  ElectronicsPage :275 - clickOnCellPhones[[ChromeDriver: chrome on WINDOWS (04b2e36459d153cccdc1e2c089530124)] -> xpath: //ul[1]/li[2]/ul[1]/li[2]/a[1]]
+2022-12-20 19:36:25 INFO  ElectronicsPage :280 - getCellPhoneTextCell phones
+2022-12-20 19:36:28 INFO  ElectronicsPage :270 - mouseHoverOnElectronicTab[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> xpath: //a[text()='Electronics ']]
+2022-12-20 19:36:28 INFO  ElectronicsPage :275 - clickOnCellPhones[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> xpath: //ul[1]/li[2]/ul[1]/li[2]/a[1]]
+2022-12-20 19:36:28 INFO  ElectronicsPage :280 - getCellPhoneTextCell phones
+2022-12-20 19:36:28 INFO  ElectronicsPage :285 - clickOnListViewTab[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> xpath: //a[contains(text(),'List')]]
+2022-12-20 19:36:31 INFO  ElectronicsPage :290 - clickOnNokiaLumiaProduct[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> xpath: //div[3]/div[1]/div[2]/h2[1]/a]
+2022-12-20 19:36:31 INFO  ElectronicsPage :295 - verifyNokiaLumiaTextNokia Lumia 1020
+2022-12-20 19:36:31 INFO  ElectronicsPage :300 - verifyPrice349$349.00
+2022-12-20 19:36:31 INFO  ElectronicsPage :305 - changeTheQuantity[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> name: addtocart_20.EnteredQuantity]
+2022-12-20 19:36:31 INFO  ElectronicsPage :311 - clickOnAddToCartButton[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> xpath: //button[@id='add-to-cart-button-20']]
+2022-12-20 19:36:32 INFO  ElectronicsPage :316 - verifyProductAddedInShoppingCartTextThe product has been added to your shopping cart
+2022-12-20 19:36:32 INFO  ElectronicsPage :321 - clickOnCloseButton[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> xpath: //span[@title='Close']]
+2022-12-20 19:36:32 INFO  ElectronicsPage :326 - hoverOnShoppingCartAndClickOnGoToCartButton[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> xpath: //button[text()='Go to cart']]
+2022-12-20 19:36:33 INFO  ElectronicsPage :332 - verifyShoppingCartTextShopping cart
+2022-12-20 19:36:33 INFO  ElectronicsPage :337 - verifyTheQuantityIs2(2)
+2022-12-20 19:36:33 INFO  ElectronicsPage :342 - verifyTheTotal$698.00
+2022-12-20 19:36:33 INFO  ElectronicsPage :347 - clickOnCheckBox[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> xpath: //input[@id='termsofservice']]
+2022-12-20 19:36:33 INFO  ElectronicsPage :352 - clickOnCheckoutButton[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> id: checkout]
+2022-12-20 19:36:34 INFO  ElectronicsPage :357 - verifyWelcomeMessageWelcome, Please Sign In!
+2022-12-20 19:36:34 INFO  ElectronicsPage :362 - clickOnRegisterTab[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> xpath: //button[text()='Register']]
+2022-12-20 19:36:34 INFO  ElectronicsPage :367 - verifyRegisterTextRegister
+2022-12-20 19:36:34 INFO  ElectronicsPage :372 - mandatoryFields[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> id: gender-male]
+2022-12-20 19:36:34 INFO  ElectronicsPage :416 - clickOnRegistrationButton[[ChromeDriver: chrome on WINDOWS (8b40ce258378cf308a301e914e083907)] -> id: register-button]
+2022-12-20 19:36:59 INFO  TopMenuPage :50 - verifyComputerComputers
+2022-12-20 19:37:03 INFO  TopMenuPage :55 - verifyElectronicsElectronics
+2022-12-20 19:37:05 INFO  TopMenuPage :60 - verifyApparelApparel

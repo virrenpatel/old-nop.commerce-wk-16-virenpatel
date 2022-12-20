@@ -1,0 +1,1792 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2943751800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify Product Arrange In Alphabetical Order",
+        "description": "",
+        "id": "computer-page-test;verify-product-arrange-in-alphabetical-order",
+        "after": [
+          {
+            "result": {
+              "duration": 623777700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84843800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "ComputerSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 825965700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Computer tab",
+            "match": {
+              "location": "ComputerSteps.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 730157500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Desktop",
+            "match": {
+              "location": "ComputerSteps.iClickOnDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70985900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should select product in descending order \"Name: Z to A\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name: Z to A",
+                  "offset": 45
+                }
+              ],
+              "location": "ComputerSteps.iShouldSelectProductInDescendingOrder(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1776933000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify Product Added To Shopping Cart SuccessFully",
+        "description": "",
+        "id": "computer-page-test;verify-product-added-to-shopping-cart-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 801174400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "ComputerSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 429158800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Computer tab",
+            "match": {
+              "location": "ComputerSteps.iClickOnComputerTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 353203300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on Desktop",
+            "match": {
+              "location": "ComputerSteps.iClickOnDesktop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107146100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should select product in descending order \"Name: A to Z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name: A to Z",
+                  "offset": 45
+                }
+              ],
+              "location": "ComputerSteps.iShouldSelectProductInDescendingOrder(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280151800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "ComputerSteps.iClickOnAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 778438200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify Build your own computer message",
+            "match": {
+              "location": "ComputerSteps.iVerifyBuildYourOwnComputerMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2071291100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select Processor by value\"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 28
+                }
+              ],
+              "location": "ComputerSteps.iSelectProcessorByValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2072145000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select Ram GB by value \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 26
+                }
+              ],
+              "location": "ComputerSteps.iSelectRamGBByValue(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2058415600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click On HDD Radio",
+            "match": {
+              "location": "ComputerSteps.iClickOnHDDRadio()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34980200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click On Os Radio Vista Premium",
+            "match": {
+              "location": "ComputerSteps.iClickOnOsRadioVistaPremium()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137700900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click On Software Total Commander",
+            "match": {
+              "location": "ComputerSteps.iClickOnSoftwareTotalCommander()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45845700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I total Command",
+            "match": {
+              "location": "ComputerSteps.iTotalCommand()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2058041000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click On Add To Cart Button",
+            "match": {
+              "location": "ComputerSteps.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293737300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify The product has been added to your shopping cart message",
+            "match": {
+              "location": "ComputerSteps.iVerifyTheProductHasBeenAddedToYourShoppingCartMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46987300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I close Cart MessageBox",
+            "match": {
+              "location": "ComputerSteps.iCloseCartMessageBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165604300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I mouseHover On Shopping Cart",
+            "match": {
+              "location": "ComputerSteps.iMouseHoverOnShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1303738300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click On Shopping Cart",
+            "match": {
+              "location": "ComputerSteps.iClickOnShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67586100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 31,
+                "value": "#    And I verify Shopping cart message"
+              }
+            ],
+            "line": 32,
+            "name": "I clear Text In Quantity Field",
+            "match": {
+              "location": "ComputerSteps.iClearTextInQuantityField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55410700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I send Text To Quantity Field",
+            "match": {
+              "location": "ComputerSteps.iSendTextToQuantityField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 419583700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click On Update Shopping Cart Button",
+            "match": {
+              "location": "ComputerSteps.iClickOnUpdateShoppingCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46410900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify price",
+            "match": {
+              "location": "ComputerSteps.iVerifyPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53283500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click On CheckBox I Agree With Terms And Condition",
+            "match": {
+              "location": "ComputerSteps.iClickOnCheckBoxIAgreeWithTermsAndCondition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480932000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click On Check Out Button",
+            "match": {
+              "location": "ComputerSteps.iClickOnCheckOutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41681500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I verify Welcome, Please Sign In message",
+            "match": {
+              "location": "ComputerSteps.iVerifyWelcomePleaseSignInMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 564277000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click On Check Out As GuestBox",
+            "match": {
+              "location": "ComputerSteps.iClickOnCheckOutAsGuestBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92522700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter Text To First Name Field",
+            "match": {
+              "location": "ComputerSteps.iEnterTextToFirstNameField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75149800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I enter Text To Last Name Field",
+            "match": {
+              "location": "ComputerSteps.iEnterTextToLastNameField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111399700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter Text To email Field",
+            "match": {
+              "location": "ComputerSteps.iEnterTextToEmailField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77334800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I select Text To Country Field",
+            "match": {
+              "location": "ComputerSteps.iSelectTextToCountryField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219150300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I select State To State Field",
+            "match": {
+              "location": "ComputerSteps.iSelectStateToStateField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87236000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I select Text To City Field",
+            "match": {
+              "location": "ComputerSteps.iSelectTextToCityField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102817600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I send Text To AddressLineA",
+            "match": {
+              "location": "ComputerSteps.iSendTextToAddressLineA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109355100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter Text To AddressLineB",
+            "match": {
+              "location": "ComputerSteps.iEnterTextToAddressLineB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138551400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter Text To Postcode",
+            "match": {
+              "location": "ComputerSteps.iEnterTextToPostcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159618100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I enter Text To PhoneNumber Field",
+            "match": {
+              "location": "ComputerSteps.iEnterTextToPhoneNumberField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91759600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click On Continue Button",
+            "match": {
+              "location": "ComputerSteps.iClickOnContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293720800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click On NextDay Air Button",
+            "match": {
+              "location": "ComputerSteps.iClickOnNextDayAirButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76349300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I click On Continue Button Again",
+            "match": {
+              "location": "ComputerSteps.iClickOnContinueButtonAgain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268299400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click On CreditCard Button",
+            "match": {
+              "location": "ComputerSteps.iClickOnCreditCardButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50510900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click On Continuetwo",
+            "match": {
+              "location": "ComputerSteps.iClickOnContinuetwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39360500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click On CreditCard Radio Button",
+            "match": {
+              "location": "ComputerSteps.iClickOnCreditCardRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44218900,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click On Continue ButtonC",
+            "match": {
+              "location": "ComputerSteps.iClickOnContinueButtonC()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220059100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I select MasterCard From CreditCard Dropdown",
+            "match": {
+              "location": "ComputerSteps.iSelectMasterCardFromCreditCardDropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93673200,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I send Text TO CardHolder Name",
+            "match": {
+              "location": "ComputerSteps.iSendTextTOCardHolderName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110228300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I send Text TO CardNumber",
+            "match": {
+              "location": "ComputerSteps.iSendTextTOCardNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170082600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I select Month And Year For CreditCard Expire Data",
+            "match": {
+              "location": "ComputerSteps.iSelectMonthAndYearForCreditCardExpireData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95189100,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I send Text To CardCode",
+            "match": {
+              "location": "ComputerSteps.iSendTextToCardCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85712700,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I click On Continue ButtonD",
+            "match": {
+              "location": "ComputerSteps.iClickOnContinueButtonD()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 277554900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I verify get Paymen tMethod Text",
+            "match": {
+              "location": "ComputerSteps.iVerifyGetPaymenTMethodText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53001200,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I verify Shipping Method Text",
+            "match": {
+              "location": "ComputerSteps.iVerifyShippingMethodText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38009400,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I verify Total Price number",
+            "match": {
+              "location": "ComputerSteps.iVerifyTotalPriceNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57463400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click On Confirm Button",
+            "match": {
+              "location": "ComputerSteps.iClickOnConfirmButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 584771200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I verify Thank You Text",
+            "match": {
+              "location": "ComputerSteps.iVerifyThankYouText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34675400,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I verify Successfully Processed Text",
+            "match": {
+              "location": "ComputerSteps.iVerifySuccessfullyProcessedText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 352819800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click On Continue ButtonF",
+            "match": {
+              "location": "ComputerSteps.iClickOnContinueButtonF()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52975400,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I get Welcome To Our Store Text",
+            "match": {
+              "location": "ComputerSteps.iGetWelcomeToOurStoreText()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@sanity"
+          },
+          {
+            "line": 12,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Page Test",
+    "description": "As a user I would like to go to computer page into nop commerce website",
+    "id": "computer-page-test",
+    "keyword": "Feature",
+    "uri": "computerpage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2772393100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify User Should Navigate To CellPhones Page Successfully",
+        "description": "",
+        "id": "electronics-page-test;verify-user-should-navigate-to-cellphones-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 623609200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "ComputerSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156103500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouseHover On Electronic Tab",
+            "match": {
+              "location": "ElectronicsSteps.iMouseHoverOnElectronicTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 375900000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click On Cell Phones",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnCellPhones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32263400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify cell phone text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyCellPhoneText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1938634100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify That The Product Added Successfully And Place Order Successfully",
+        "description": "",
+        "id": "electronics-page-test;verify-that-the-product-added-successfully-and-place-order-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1090714100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "ComputerSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155956000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I mouseHover On Electronic Tab",
+            "match": {
+              "location": "ElectronicsSteps.iMouseHoverOnElectronicTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 463531100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click On Cell Phones",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnCellPhones()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49358600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify cell phone text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyCellPhoneText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69291100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click On List View Tab",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnListViewTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2632612900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click On Nokia Lumia Product",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnNokiaLumiaProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28907300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I verify Nokia Lumia Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyNokiaLumiaText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24118300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify Price",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73643400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I change The Quantity",
+            "match": {
+              "location": "ElectronicsSteps.iChangeTheQuantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40235800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click On Add To Cart Buttons",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnAddToCartButtons()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271476300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify Product Added In Shopping Cart Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyProductAddedInShoppingCartText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33207900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click On Close Button",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnCloseButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1468353300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I hover On Shopping Cart And Click On Go To Cart Button",
+            "match": {
+              "location": "ElectronicsSteps.iHoverOnShoppingCartAndClickOnGoToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27015100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I verify Shopping Cart Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyShoppingCartText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22847900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I verify The Quantity Is two",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyTheQuantityIsTwo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25390200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify The Total",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyTheTotal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36492900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click On Check Box",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnCheckBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465929200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click On Check out Button",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnCheckOutButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29406600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I verify Welcome Message",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyWelcomeMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 267131200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click On Register Tab",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnRegisterTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26738000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify Register Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyRegisterText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412234700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter text in mandatory Fields",
+            "match": {
+              "location": "ElectronicsSteps.iEnterTextInMandatoryFields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272662000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click On Registration Button",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnRegistrationButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20065924300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()\u003d\u0027Your registration completed\u0027]\"}\n  (Session info: chrome\u003d108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8b40ce258378cf308a301e914e083907, findElement {using\u003dxpath, value\u003d//div[text()\u003d\u0027Your registration completed\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\viren\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50024}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50024/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8b40ce258378cf308a301e914e083907\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy25.getText(Unknown Source)\r\n\tat com.nopcommerce.demo.pages.ElectronicsPage.verifyRegistrationText(ElectronicsPage.java:421)\r\n\tat com.nopcommerce.demo.cucumber.steps.ElectronicsSteps.iVerifyRegistrationText(ElectronicsSteps.java:128)\r\n\tat ✽.And I verify Registration Text(electronicspage.feature:38)\r\n",
+              "status": "failed"
+            },
+            "line": 38,
+            "name": "I verify Registration Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyRegistrationText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "I click On Continue Tab",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnContinueTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I check Shopping Cart Text",
+            "match": {
+              "location": "ElectronicsSteps.iCheckShoppingCartText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "I click on Login",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I enter userName",
+            "match": {
+              "location": "ElectronicsSteps.iEnterUserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I enter password",
+            "match": {
+              "location": "ElectronicsSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I click on login button",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "I click On Terms And Services Box",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnTermsAndServicesBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "I click On Checkout Last",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnCheckoutLast()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "I fill Delivery Address Fields",
+            "match": {
+              "location": "ElectronicsSteps.iFillDeliveryAddressFields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "I click On Continues Button",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnContinuesButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "I click On second Day Air Button",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnSecondDayAirButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "I click Continue",
+            "match": {
+              "location": "ElectronicsSteps.iClickContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "I select Credit Card Radio Button",
+            "match": {
+              "location": "ElectronicsSteps.iSelectCreditCardRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "I click Con",
+            "match": {
+              "location": "ElectronicsSteps.iClickCon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "I select Visa From DropDown",
+            "match": {
+              "location": "ElectronicsSteps.iSelectVisaFromDropDown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "I fill Card Details",
+            "match": {
+              "location": "ElectronicsSteps.iFillCardDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "I click Con Btn",
+            "match": {
+              "location": "ElectronicsSteps.iClickConBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "I verify Credit Card Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyCreditCardText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "I verify second Day Air Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifySecondDayAirText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "I verify Final Total",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyFinalTotal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "I click On Confirm Button",
+            "match": {
+              "location": "ComputerSteps.iClickOnConfirmButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I verify Thank You Text",
+            "match": {
+              "location": "ComputerSteps.iVerifyThankYouText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I verify Successfully Processed Message",
+            "match": {
+              "location": "ElectronicsSteps.iVerifySuccessfullyProcessedMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "I click On Continue",
+            "match": {
+              "location": "ElectronicsSteps.iClickOnContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "I verify Welcome To Our Store Text",
+            "match": {
+              "location": "ElectronicsSteps.iVerifyWelcomeToOurStoreText()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@sanity1"
+          },
+          {
+            "line": 13,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Electronics Page Test",
+    "description": "As a user I would like to go to electronics page in nop commerce website",
+    "id": "electronics-page-test",
+    "keyword": "Feature",
+    "uri": "electronicspage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2815830200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify User Should Navigate To Computer",
+        "description": "",
+        "id": "topmenu-page-test;verify-user-should-navigate-to-computer",
+        "after": [
+          {
+            "result": {
+              "duration": 766092700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "ComputerSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 585793200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select Computer tab from top tab menu",
+            "match": {
+              "location": "TopMenuSteps.iSelectComputerTabFromTopTabMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49828000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify computers text",
+            "match": {
+              "location": "TopMenuSteps.iVerifyComputersText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1960867200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify User Should Navigate To Electronics",
+        "description": "",
+        "id": "topmenu-page-test;verify-user-should-navigate-to-electronics",
+        "after": [
+          {
+            "result": {
+              "duration": 642035000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "ComputerSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 441835700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select Electronics tab from top tab menu",
+            "match": {
+              "location": "TopMenuSteps.iSelectElectronicsTabFromTopTabMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26755500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify Electronics text",
+            "match": {
+              "location": "TopMenuSteps.iVerifyElectronicsText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@sanity"
+          },
+          {
+            "line": 12,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1735221000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "verify User Should Navigate To Apparel",
+        "description": "",
+        "id": "topmenu-page-test;verify-user-should-navigate-to-apparel",
+        "after": [
+          {
+            "result": {
+              "duration": 614961500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "ComputerSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 436092400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select Apparel tab from top tab menu",
+            "match": {
+              "location": "TopMenuSteps.iSelectApparelTabFromTopTabMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25686100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify Apparel text",
+            "match": {
+              "location": "TopMenuSteps.iVerifyApparelText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Topmenu Page Test",
+    "description": "As a user I would like to select top menu from nop commerce website",
+    "id": "topmenu-page-test",
+    "keyword": "Feature",
+    "uri": "topmenu.feature"
+  }
+]
